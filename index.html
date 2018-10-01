@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kirjaudu sisään</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+  </head>
+  <body>
+    <div class="loginbox">
+      <h1>Kirjaudu sisään</h1>
+      <form name="login">
+      <div class="login">
+        <input type="text" placeholder="Anna käyttäjätunnus" name="username" value=""> <br><br>
+        <input type="password" placeholder="Anna salasana" name="pswrd" value=""> <br><br>
+        <input class="btn" onclick="check(this.form)" type="button" name="sbmt" value="Kirjaudu sisään">
+    </div>
+    </div>
+    </form>
+    <script language="javascript">
+        function check(form)
+        {
+          if(form.username.value == "admin" && form.pswrd.value == "admin")
+          {
+            window.open('paasivu.php')
+          }
+          else {
+            alert("Virheellinen käyttäjätunnus tai salasana")
+          }
+        }
+    </script>
+
+  </body>
+</html>
