@@ -1,5 +1,4 @@
-<?php include('includes/header.php'); ?>
-
+<?php require_once('includes/header.php'); ?>
 
     </div>
   </body>
