@@ -1,13 +1,16 @@
+<?php require_once('includes/header.php'); ?>
 
+<div class="tilit">
+<label for="tili">Tili: FI12 3456 78910111213</label>  <label for="saldo">Saldo: 5,678€</label>
+</div>
 <div class="container">
-
 <table class="table table-bordered table-hover table-striped table-dark">
   <thead>
     <tr>
       <th scope="col">Kirjauspäivä</th>
       <th scope="col">Saaja/Maksaja</th>
       <th scope="col">Viite/Viesti</th>
-      <th scope="col">Saaja</th>
+      <th scope="col">Saajan Tilinumero</th>
       <th scope="col">Määrä Euroina</th>
     </tr>
   </thead>

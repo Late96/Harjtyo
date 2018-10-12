@@ -15,29 +15,39 @@ function loadXMLDoc(page) {
   xhttp.open("GET", page, true);
   xhttp.send();
 }
+
 //Maksun hyväksyminen
 function show_confirmMaksu(){
 
   var varmistus = prompt("Anna varmistuskoodi");
   if(varmistus == 1234){
-      alert("Maksu hyväksytty.");
-      loadXMLDoc('Uusimaksu.php');
+      window.open('maksuHyväksytty.php','_self');
   }
-
   else{
   alert("Virheellinen varmistuskoodi.");
+   return false;
   }
+  
 }
 //Tilisiirron hyväksyminen
 function show_confirmSiirto(){
 
   var varmistus = prompt("Anna varmistuskoodi");
   if(varmistus == 1234){
-      alert("Siirto hyväksytty.");
-      loadXMLDoc('Tilisiirto.php');
+      loadXMLDoc('tilisiirtoHyväksytty.php');
   }
 
   else{
   alert("Virheellinen varmistuskoodi.");
+  }
+}
+
+//Ulos kirjautumisen varmistuskoodifunction show_confirmSiirto(){
+function show_confirmUlos(){
+  var varmistus = confirm("Haluatko varmasti kirjautua ulos?");
+  if(varmistus == true){
+      window.open('index.html','_self');
+  }
+  else{
   }
 }
