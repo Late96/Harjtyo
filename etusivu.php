@@ -1,5 +1,4 @@
-<?php require_once('includes/header.php'); ?>
-
+<?php include('includes/header.php'); ?>
 
 <div class="container">
 <table class="table table-bordered table-hover table-striped table-dark">

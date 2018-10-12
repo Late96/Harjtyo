@@ -10,6 +10,6 @@
   <body>
     <nav>
       <p>Pankki</p>
-        <?php require_once('includes/nav.php'); ?>
+        <?php include('includes/nav.php'); ?>
     </nav>
     <div id="content">

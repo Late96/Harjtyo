@@ -1,4 +1,4 @@
-<?php require_once('includes/header.php'); ?>
+<?php include('includes/header.php'); ?>
 
 <div class="tilit">
 <label for="tili">Tili: FI44 4341 15351050394</label>  <label for="saldo">Saldo: 55,778€</label>

@@ -1,4 +1,4 @@
-<?php require_once('includes/header.php'); ?>
+<?php include('includes/header.php'); ?>
 
 <div class="container">
 <table class="table table-bordered table-hover table-striped table-dark">
@@ -10,17 +10,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr onclick="window.location.href = 'tilitapahtumat.php';">
       <th scope="row">Käyttötili</th>
       <td>FI12 3456 78910111213</td>
       <td>5,678€</td>
     </tr>
-    <tr>
+    <tr onclick="window.location.href = 'tilitapahtumat1.php';">
       <th scope="row">ASP</th>
       <td>FI09 8765 43210987655</td>
       <td>10,500€</td>
     </tr>
-    <tr onclick="window.location.href = 'tilitapahtumat.php';">
+    <tr onclick="window.location.href = 'tilitapahtumat2.php';">
       <th scope="row">Säästötili</th>
       <td>FI44 4341 15351050394</td>
       <td>55,778€</td>

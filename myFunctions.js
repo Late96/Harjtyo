@@ -27,7 +27,7 @@ function show_confirmMaksu(){
   alert("Virheellinen varmistuskoodi.");
    return false;
   }
-  
+
 }
 //Tilisiirron hyväksyminen
 function show_confirmSiirto(){
@@ -49,5 +49,17 @@ function show_confirmUlos(){
       window.open('index.html','_self');
   }
   else{
+  }
+}
+
+//login
+function check(form)
+{
+  if(form.username.value == "admin" && form.pswrd.value == "admin")
+  {
+    window.open('paasivu.php')
+  }
+  else {
+    alert("Virheellinen käyttäjätunnus tai salasana")
   }
 }
