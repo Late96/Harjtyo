@@ -11,3 +11,6 @@ Mikäli tiedot ovat oikein käyttäjä voi kirjautua sisään, muussa tapauksess
 Ulokirjautumisessa käytetyssä javascriptissä funktio vain varmistaa haluaako käyttäjä varmasti kirjautua ulos.
 
 mystyle.css tiedostossa on kaikkien sivujen ulkoasun muokkaamisessa käytetty koodi.
+
+Käytttäjätunnus = admin
+Salasana = admin
